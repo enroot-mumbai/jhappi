@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -11,16 +11,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        <img src='/jhappi.jpg' height={'200'} />
-        <h1 className={styles.title}>
-         Coming soon
-        </h1>
-
-        
+        <img src="/jhappi.jpg" height={"200"} />
+        <h1 className={styles.title}>Coming soon</h1>
+        <h2 className={styles.code} style={{ marginTop: "60px" }}>
+          contact@jhappi.store
+        </h2>
+        <h2 className={styles.code}>9223369029</h2>
       </main>
-
-      
     </div>
-  )
+  );
 }
